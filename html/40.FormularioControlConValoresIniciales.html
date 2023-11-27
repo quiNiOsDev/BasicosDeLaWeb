@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba de formulario</title>
+</head>
+<body>
+  <h2>En esta sección, veremos el uso de un formulario con valores de seleccion inicializados</h2>
+  <form action="IngresarPais.php" method="post">
+    <select name="pais">
+      <option value="1">Argentina</option>
+      <option value="2" selected>España</option>
+      <option value="3">México</option>
+      <option value="4">Guatemala</option>
+      <option value="5">Honduras</option>
+      <option value="7">El Salvador</option>
+      <option value="8">Venezuela</option>
+      <option value="9">Colombia</option>
+      <option value="10">Cuba</option>
+      <option value="11">Bolivia</option>
+      <option value="13">Perú</option>
+      <option value="14">Ecuador</option>
+      <option value="15">Paraguay</option>
+      <option value="16">Uruguay</option>
+      <option value="17">Chile</option>
+      </select>
+      <select name="colores[]" size="4" multiple="multiple">
+        <option value="1" selected>Rojo</option>
+        <option value="2">Verde</option>
+        <option value="3" selected>Azul</option>
+        <option value="4">Amarillo</option>
+        <option value="5" selected>Blanco</option>
+        <option value="6">Negro</option>
+        <option value="7">Naranja</option>
+        <option value="8">Violeta</option>
+        </select>
+  </form>
+</body>
+</html>

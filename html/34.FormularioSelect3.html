@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba de formulario</title>
+</head>
+<body>
+  <h2>En esta sección haremos un formulario con seleccion multiple y con dos opciones de selección</h2>
+  <hr>
+  <form action="RegistrarFrontBack" method="post">
+    Ingresa tu nombre : <input type="text" name="nombre" size="40"><br>
+    Ingresa tu stack (pila) :
+    <select name="stack" >
+      <optgroup label="FRONT">
+        <option value="1">Angular</option>
+        <option value="2">Vue</option>
+        <option value="3">React</option>
+        <option value="4">Svelte</option>
+      </optgroup>
+      <optgroup label="BACK">
+        <option value="1">Java</option>
+        <option value="2">Python</option>
+        <option value="3">Node</option>
+        <option value="4">PHP</option>
+        <option value="5">C#</option>
+      </optgroup>
+    </select><br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+
+  </form>
+  
+</body>
+</html>
