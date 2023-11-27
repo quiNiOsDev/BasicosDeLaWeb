@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba de formulario</title>
+</head>
+<body>
+  <h2>En esta sección haremos uso de select dentro de un formulario</h2>
+  <form action="registrarLenguaje" method="post">
+    Ingresa tu nombre: <br>
+    <input type="text" name="nombre" size="50"><br>
+    Selecciona el lenguaje en el cual eres experto: <br>
+    <select name="language"  ><!--Tambien se le puede agregar la propiedad size -->
+      <option value="1">Java</option>
+      <option value="2">Go</option>
+      <option value="3">C#</option>
+      <option value="4">Python</option>
+      <option value="5">Javascript</option>
+      <option value="6">PHP</option>
+    </select>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+  </form>
+  
+</body>
+</html>

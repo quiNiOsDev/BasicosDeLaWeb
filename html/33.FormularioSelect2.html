@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba de formulario</title>
+</head>
+  <h2>En esta sección haremos un formulario con seleccion múltiple</h2>
+  <form action="RegistrarLenguajes" method="post">
+    Ingresa tu nombre: <br>
+    <input type="text" name="nombre" size="30"><br>
+    Selecciona el/los lenguaje/s de tu preferencia: <br>
+    <select name="languages[]" size="4" multiple >
+      <option value="1">Java</option>
+      <option value="2">Kotlin</option>
+      <option value="3">Go</option>
+      <option value="4">Javascript</option>
+      <option value="5">Swift</option>
+      <option value="6">Ruby</option>
+      <option value="7">PHP</option>
+      <option value="8">Scala</option>
+      <option value="9">Python</option>
+      <option value="10">C#</option>
+    </select>
+    <br>
+    <input type="submit" value="Enviar" ><br>
+    <input type="reset" value="Borrar" >
+
+  </form> 
+<body>
+  
+</body>
+</html>

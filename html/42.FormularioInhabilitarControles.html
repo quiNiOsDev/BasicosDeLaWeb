@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Prueba de formulario</title>
+</head>
+<body>
+  <h2>En esa sección, haremos un formulario con radio buttor inhabilitados</h2>
+  <form action="ElegirVersion" method="post">
+    Ingrese sus nombre; <br>
+    <input type="text" name="nombre"> <br>
+    Elija su versión de Java: <br>
+    <input type="radio" name="version" value="1" disabled>Java 8 <br>
+    <input type="radio" name="version" value="2">Java 11 <br>
+    <input type="radio" name="version" value="3">Java 17 <br>
+    <input type="radio" name="version" value="4">Java 21 <br>
+    <input type="submit" value="Enviar"><br>
+    <input type="reset" value="Borrar">  
+  </form>
+</body>
+</html>
